@@ -3,6 +3,6 @@ public class Piloto {
     boolean vilao;
 
     void soltaSuperPoder(){
-
+        System.out.println("Superpoder usado por " + nome);
     }
 }

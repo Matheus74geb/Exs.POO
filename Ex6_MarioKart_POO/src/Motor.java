@@ -2,7 +2,7 @@ public class Motor {
     String cilindradas;
     float velocidadeMaxima;
 
-    void mostrarInfo(){
-
+    void mostraInfo(){
+        System.out.println("Motor: " + cilindradas + "cc, Velocidade Máxima: " + velocidadeMaxima + " km/h");
     }
 }
