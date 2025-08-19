@@ -3,6 +3,10 @@ public class Kart {
     Motor motor;
     Piloto piloto;
 
+    public Kart() {
+        motor = new Motor();
+    }
+
     void pular(){
         System.out.println(nome + " Pulou!");
     }
